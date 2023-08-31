@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 15px;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+
+#title {
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+/* HTML Table & Styling  */
+
+table {
+	empty-cells: Hide;
+	/* show* | Hide */
+
+	border-collapse: collapse;
+	/* separate* | collapse  */
+
+	caption-side: top;
+	/*	top* | bottom */
+
+	table-layout: auto;
+	/* auto | fixed	*/
+
+	border-spacing: 5px;
+
+	width: 100%;
+}
+
+table,
+td,
+th {
+	padding: 5px 15px;
+	border: 1px solid red;
+}
